@@ -1,0 +1,47 @@
+.box {
+  width: 700px;
+  height: 550px;
+  background-color: azure;
+  outline: auto;
+  border: 5px;
+  padding: 1px;
+  margin: 200px;
+  position: center;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  background-color: rgb(180, 173, 173);
+  text-align: center;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+footer {
+  background-color: rgb(180, 173, 173);
+  text-align: center;
+  padding: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+header::after {
+  content: "SALE";
+  background-color: brown;
+  color: aliceblue;
+  position: absolute;
+  top: 190px;
+  left: 31%;
+  padding: 5px;
+}
+footer:hover {
+  color: white;
+  cursor: pointer;
+  transition: all;
+}
+body {
+  position: relative;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
