@@ -1,6 +1,6 @@
 .box {
   width: 700px;
-  height: 550px;
+  height: 590px;
   background-color: azure;
   outline: auto;
   border: 5px;
@@ -33,7 +33,7 @@ header::after {
 footer:hover {
   color: white;
   cursor: pointer;
-  transition: all;
+  background: black;
 }
 body {
   position: relative;
@@ -44,4 +44,32 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
+}
+.colorbox {
+  display: flex;
+  gap: 8px;
+  margin-top: 5px;
+}
+.color {
+  width: 16px;
+  height: 16px;
+  border: 1px solid;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.white {
+  background-color: white;
+}
+.orange {
+  background-color: orange;
+}
+.beige {
+  background-color: beige;
 }
