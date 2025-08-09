@@ -1,0 +1,106 @@
+.box {
+  width: 980px;
+  height: 470.5px;
+  background-color: azure;
+  outline: auto;
+  border: 5px solid;
+  padding: 0px;
+  margin: 200px;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+}
+header {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 17.9px;
+  font-family: "Times New Roman", Times, serif;
+}
+header::after {
+  content: "SALE";
+  background-color: brown;
+  color: aliceblue;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  padding: 5px;
+}
+footer:hover {
+  color: orange;
+  cursor: pointer;
+  background: black;
+}
+body {
+  position: relative;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.colorbox {
+  display: flex;
+  gap: 8px;
+  margin-top: 5px;
+}
+.color {
+  width: 16px;
+  height: 16px;
+  border: 1px solid;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.white {
+  background-color: white;
+}
+.orange {
+  background-color: orange;
+}
+.beige {
+  background-color: beige;
+}
+.container {
+  width: 300px;
+  height: 300px;
+  border: none;
+  background-color: white;
+  margin-top: -305px;
+  margin-left: 350px;
+  display: grid;
+  grid-template-columns: 200px 120px;
+}
+
+aside {
+  width: 300px;
+  height: 300px;
+  border: none;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: -182px;
+  position: relative;
+}
+h3::after p {
+  color: gray;
+}
+.freeshipping {
+  color: gray;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
